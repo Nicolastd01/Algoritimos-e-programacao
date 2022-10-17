@@ -1,5 +1,6 @@
-sallvee teste 123
+a = int(input())
+b = int(input())
 
-teste 2
+x = a + b
 
-jhJHDGG
+print("x = %i\n" %(x))
