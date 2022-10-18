@@ -1,0 +1,8 @@
+nome = str(input())
+salfix = float(input())
+tvm = float(input())
+comi = 0.15 * tvm
+
+total = salfix + comi
+
+print("TOTAL = R$ %.2f" %(total))
