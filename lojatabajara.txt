@@ -1,0 +1,13 @@
+somaprodutos = 0
+quantidade = 1
+
+while quantidade != 0:
+    valor = float(input())
+    somaprodutos = valor + somaprodutos
+    quantidade = valor
+    if quantidade == 0:
+        dinheiro = float(input())
+        troco = dinheiro - somaprodutos
+print("Total da compra: R$%.2f" %(somaprodutos))
+print("Valor pago: R$%.2f" %(dinheiro))
+print("Troco: R$%.2f" %(troco))

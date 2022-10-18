@@ -1,0 +1,12 @@
+anoAtual = int(input())
+salarioInicial = 1000
+taxa = 0.015
+
+if anoAtual >= 2006:
+    salarioFinal = salarioInicial + (salarioInicial * taxa)
+    for n in range(2007, anoAtual + 1):
+        taxa = taxa + 0.01
+        salarioFinal = salarioFinal + (taxa * salarioFinal)
+    print("Salario Atual: R$%.2f" %(salarioFinal))
+else:
+    print("O ano informado devera ser > 2005!")
