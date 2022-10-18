@@ -1,0 +1,30 @@
+nome = str(input())
+Hrsex = float(input())
+
+Salmin = 1192.40
+Valorhrex = 10
+inss = 0
+ir = 0
+descinss = 0
+
+Salhrex = Hrsex * Valorhrex
+salbrt = 3 * Salmin + Salhrex
+
+if salbrt > 2000.00:
+  inss = salbrt * 0.12
+
+else:
+   inss = salbrt * 0.5
+  
+if salbrt > 2500.00:
+  ir = salbrt * 0.20
+
+else:
+   ir = salbrt * 0.0
+   
+salliq = salbrt - inss - ir
+
+print("Nome: %s" %(nome))
+print("Salário bruto: R$ %.2f" %(salbrt))
+print("Salário líquido: R$ %.2f" %(salliq))
+  

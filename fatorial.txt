@@ -1,0 +1,9 @@
+fatorial = int(input())
+contador = 2
+resultado = 1
+
+while contador <= fatorial:
+  resultado = resultado * contador
+  contador = contador + 1
+
+print("%i! = %i"%(fatorial,resultado))

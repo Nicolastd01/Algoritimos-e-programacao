@@ -1,0 +1,7 @@
+valini = int(input())
+valfin = int(input())
+
+while valini >= valfin:
+  print(valini)
+  valini = valini - 1
+print("Fogo!")

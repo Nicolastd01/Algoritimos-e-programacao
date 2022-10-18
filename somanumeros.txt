@@ -1,0 +1,12 @@
+qntnum = int(input())
+acum = 1
+soma = 0 
+
+if qntnum <= 0:
+  print("Informe uma quantidade > 0!")
+else:
+  while acum <= qntnum:
+    num = float(input())
+    soma = num + soma
+    acum = acum + 1
+  print("Soma dos números informados: %.2f" %(soma))
