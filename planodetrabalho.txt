@@ -1,0 +1,17 @@
+planofun = (input())
+salarioatual = float(input())
+novosalario = 0
+
+if planofun == "A":
+  aumen = salarioatual * 0.10
+  novosalario = salarioatual + aumen
+  print("Novo salário: R$%.2f" %(novosalario))                   
+elif planofun == "B":
+  aumen = salarioatual * 0.15
+  novosalario = salarioatual + aumen
+  print("Novo salário: R$%.2f" %(novosalario))   
+
+elif planofun == "C":
+  aumen = salarioatual *  0.20
+  novosalario = salarioatual + aumen
+  print("Novo salário: R$%.2f" %(novosalario)) 

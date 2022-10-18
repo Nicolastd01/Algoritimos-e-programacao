@@ -1,0 +1,19 @@
+codcli = int(input())
+valcomp = float(input())
+
+if codcli == 1:
+  desc = valcomp * 0
+  valtotal = valcomp - desc
+  print("Valor total a ser pago: R$%.2f" %(valtotal))        
+elif codcli == 2:
+  desc = valcomp * 0.13
+  valtotal = valcomp - desc
+  print("Valor total a ser pago: R$%.2f" %(valtotal))       
+
+elif codcli == 3:
+  desc = valcomp * 0.07
+  valtotal = valcomp - desc
+  print("Valor total a ser pago: R$%.2f" %(valtotal)) 
+
+elif codcli != (1, 2, 3):
+  print("OPÇÃO INVÁLIDA!")
