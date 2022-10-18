@@ -1,0 +1,4 @@
+lquad = float(input())
+area = lquad * lquad
+
+print("A área do quadrado de lado %.2f é igual a %.2f" %(lquad, area))

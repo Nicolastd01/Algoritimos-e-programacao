@@ -1,0 +1,13 @@
+valcom = float(input())
+valven = 0
+
+if valcom < 20:
+  aumen = valcom * 0.45
+  valven = valcom + aumen
+  print("Valor de venda: R$%.2f" %(valven))
+
+else:
+  aumen = valcom * 0.30
+  valven = valcom + aumen
+  valcom * 0.45
+  print("Valor de venda: R$%.2f" %(valven))
